@@ -6,6 +6,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+/*.csproj
+/*.unityproj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -21,6 +23,10 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -250,3 +256,4 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+*.sln
