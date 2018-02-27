@@ -276,7 +276,7 @@ namespace Assets.Sceelix.Processors
             camera.depth = jtoken["Properties"]["Depth"].ToObject<float>();
             camera.renderingPath = jtoken["Properties"]["Rendering Path"].ToEnum<RenderingPath>();
             camera.useOcclusionCulling = jtoken["Properties"]["Occlusion Culling"].ToObject<bool>();
-            camera.hdr = jtoken["Properties"]["HDR"].ToObject<bool>();
+            camera.allowHDR = jtoken["Properties"]["HDR"].ToObject<bool>();
         }
 
 
